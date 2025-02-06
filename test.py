@@ -55,4 +55,4 @@ while True:
 
     # Interpret results
     sentiment = "Positive 😊" if prediction >= 0.5 else "Negative 😞"
-    print(f"Sentiment: {sentiment} (Score: {prediction:.4f})")
+    print(f"Sentiment: {sentiment}")
