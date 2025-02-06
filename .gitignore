@@ -1,0 +1,23 @@
+# Ignore dataset files  
+imdb_small.csv  
+
+# Ignore model weights and tokenizer  
+sentiment_gru.pth  
+tokenizer.json  
+
+# Ignore compiled Python files and cache  
+__pycache__/  
+*.pyc  
+*.pyo  
+
+# Ignore temporary or test files  
+tempCodeRunnerFile.py  
+test_dataset.py  
+
+# Ignore system files (optional)  
+.DS_Store  
+Thumbs.db  
+
+# Ignore virtual environment (if using one)  
+venv/  
+env/  
